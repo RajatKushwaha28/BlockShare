@@ -5,7 +5,7 @@ async function main() {
   const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:7545");
 
   // Use one of Ganache's private keys (replace with an actual private key from Ganache)
-  const privateKey = "0x3408b09edb7630df470d27ebf7692c29fab0d1698a8378966172d9f74797dd5f"; 
+  const privateKey = ""; 
   const wallet = new ethers.Wallet(privateKey, provider);
 
   // Load the contract artifact
